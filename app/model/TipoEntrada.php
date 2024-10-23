@@ -4,21 +4,21 @@ namespace app\model;
 
 class TipoEntrada 
 {
-    private $id;
-    private $nome;
+    private $idTipoEntrada;
+    private $nmTipoEntrada;
 
     public function getId()
     {
-        return $this->id;
+        return $this->idTipoEntrada;
     }
 
-    public function setNome($nome)
+    public function setNome($nmTipoEntrada)
     {
-        $this->nome = $nome;
+        $this->nmTipoEntrada = $nmTipoEntrada;
     }
 
     public function getNome()
     {
-        return $this->nome;
+        return $this->nmTipoEntrada;
     }
 }
