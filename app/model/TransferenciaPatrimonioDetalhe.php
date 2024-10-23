@@ -9,23 +9,23 @@ namespace App\Model;
         private Patrimonio $idPatrimonio;
         private $idSetorDestino;
 
-        public getIdTransferenciaPatrimonioDetalhe()
+        public function getIdTransferenciaPatrimonioDetalhe()
         {
             return $this->idTransferenciaPatrimonioDetalhe;
         }
 
-        public getIdTransferenciaPatrimonio()
+        public function getIdTransferenciaPatrimonio()
         {
-            return $idTransferenciaPatrimonio;
+            return $this->idTransferenciaPatrimonio;
         }
 
-        public getIdPatrimonio()
+        public function getIdPatrimonio()
         {
             return $this->idPatrimonio;
         }
 
-        public getIdSetorOrigem()
+        public function getIdSetorOrigem()
         {
-            return $this->idSetorOrigem;
+            return $this->idSetorDestino;
         }
     }

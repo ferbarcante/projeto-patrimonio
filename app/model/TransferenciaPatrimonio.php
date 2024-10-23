@@ -27,12 +27,12 @@ namespace App\Model;
 
         public function setDtTransferencia($dtTransferencia)
         {
-            $this->DtTransferencia = $dtTransferencia;
+            $this->dtTransferencia = $dtTransferencia;
         }
 
         public function getDtTransferencia()
         {
-            return $this->DtTransferencia;
+            return $this->dtTransferencia;
         }
 
         public function setIdSetorOrigem($idSetorOrigem)
