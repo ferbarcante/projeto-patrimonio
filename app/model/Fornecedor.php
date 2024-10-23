@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Model;
+
 class Fornecedor 
 {
     private $id;
