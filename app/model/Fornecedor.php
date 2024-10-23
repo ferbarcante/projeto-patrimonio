@@ -4,33 +4,40 @@ namespace App\Model;
 
 class Fornecedor 
 {
-    private $id;
-    private $nome;
-    private $cnpjcpf;
+    private $idFonecedor;
+    private $nmFornecedor;
+    private $sgCnpjcpf;
 
-    public function getId()
+    public function getIdFonecedor()
     {
-        return $this->id;
+        return $this->idFonecedor;
     }
 
-    public function setNome($nome)
+    public function setIdFonecedor($idFonecedor)
     {
-        $this->nome = $nome;
+        $this->idFonecedor = $idFonecedor;
     }
 
-    public function getNome()
+    public function getNmFornecedor()
     {
-        return $this->nome;
+        return $this->nmFornecedor;
     }
 
-    public function setCnpjCpf($cnpjcpf)
+    public function setNmFornecedor($nmFornecedor)
     {
-        $this->cnpjcpf = $cnpjcpf;
+        $this->nmFornecedor = $nmFornecedor;
     }
 
-    public function getCnpjCpf()
+    public function getSgCnpjcpf()
     {
-        return $this->cnpjcpf;
+        return $this->sgCnpjcpf;
     }
+
+    public function setSgCnpjcpf($sgCnpjcpf)
+    {
+        $this->sgCnpjcpf = $sgCnpjcpf;
+    }
+
+
 
 }

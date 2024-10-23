@@ -1,39 +1,57 @@
 <?php
 
+namespace App\model;
+
 class GrupoItem
 {
-    private $id;
-    private $codigo;
-    private $nome;
-    private $descricao;
+    private $idGrupoItem;
+    private $cdGrupoItem;
+    private $nmGrupoItem;
+    private $dsGrupoItem;
 
-    public function getId()
+    public function getIdGrupoItem()
     {
-        return $this->id;
+        return $this->idGrupoItem;
     }
 
-    public function setCodigo($codigo)
+    public function setIdGrupoItem($idGrupoItem)
     {
-        $this->codigo = $codigo;
+        $this->idGrupoItem = $idGrupoItem;
     }
 
-    public function getCodigo()
+    public function getDsGrupoItem()
     {
-        return $this->codigo;
+        return $this->dsGrupoItem;
     }
 
-    public function setNome($nome)
+    public function setDsGrupoItem($dsGrupoItem)
     {
-        $this->nome = $nome;
+        $this->dsGrupoItem = $dsGrupoItem;
     }
 
-    public function getNome()
+    public function getNmGrupoItem()
     {
-        return $this->nome;
+        return $this->nmGrupoItem;
     }
 
-    public function setDescricao($descricao)
+
+    public function setNmGrupoItem($nmGrupoItem)
     {
-        $this->descricao = $descricao;
+        $this->nmGrupoItem = $nmGrupoItem;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCdGrupoItem()
+    {
+        return $this->cdGrupoItem;
+    }
+
+    public function setCdGrupoItem($cdGrupoItem)
+    {
+        $this->cdGrupoItem = $cdGrupoItem;
+    }
+
+
 }

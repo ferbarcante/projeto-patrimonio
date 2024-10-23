@@ -3,32 +3,32 @@
 namespace App\Model;
 
 class Pessoa{
-    private $id;
-    private $cpf;
-    private $nome;
+    private $idPessoa;
+    private $cpfPessoa;
+    private $nmPessoa;
 
-    public function getId()
+    public function getIdPessoa()
     {
-        return $this->id;
+        return $this->idPessoa;
     }
 
-    public function getCpf()
+    public function getCpfPessoa()
     {
-        return $this->cpf;
+        return $this->cpfPessoa;
     }
 
-    public function setCpf($cpf)
+    public function setCpfPessoa($cpfPessoa)
     {
-        $this->cpf = $cpf;
+        $this->cpfPessoa = $cpfPessoa;
     }
 
-    public function setNome($nome)
+    public function setNmPessoa($nmPessoa)
     {
-        $this->nome = $nome;
+        $this->nmPessoa = $nmPessoa;
     }
 
-    public function getNome()
+    public function getNmPessoa()
     {
-        return $this->nome;
+        return $this->nmPessoa;
     }
 }

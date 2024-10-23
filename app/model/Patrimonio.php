@@ -1,100 +1,160 @@
 <?php
 
 namespace app\model;
-namespace app\model\TipoEntrada;
-namespace app\model\Item;
-namespace app\model\Setor;
+
 
     class Patrimonio 
     {
         private $idPatrimonio;
-        private $numeroPlaqueta;
+        private $nmPlaqueta;
         private Item $item;
-        private $dataAquisicao;
+        private $dtAquisicao;
         private TipoEntrada $tipoEntrada;
-        private $valorItem;
-        private $observacao;
+        private $vlItem;
+        private $dsObservacao;
         private Setor $setor;
-        private $situacao;
+        private $flSituacao;
 
-        public function getId()
+        /**
+         * @return mixed
+         */
+        public function getIdPatrimonio()
         {
             return $this->idPatrimonio;
         }
 
-        public function setNumeroPlaqueta($numeroPlaqueta)
+        /**
+         * @param mixed $idPatrimonio
+         */
+        public function setIdPatrimonio($idPatrimonio)
         {
-            $this->numeroPlaqueta = $numeroPlaqueta;
+            $this->idPatrimonio = $idPatrimonio;
         }
 
-        public function getNumeroPlaqueta()
+        /**
+         * @return mixed
+         */
+        public function getNmPlaqueta()
         {
-            return $this->numeroPlaqueta;
+            return $this->nmPlaqueta;
         }
 
-        public function setItem($item)
+        /**
+         * @param mixed $nmPlaqueta
+         */
+        public function setNmPlaqueta($nmPlaqueta)
         {
-            $this->item = $item;
+            $this->nmPlaqueta = $nmPlaqueta;
         }
 
+        /**
+         * @return Item
+         */
         public function getItem()
         {
             return $this->item;
         }
 
-        public function setDataAquisicao($dataAquisicao)
+        /**
+         * @param Item $item
+         */
+        public function setItem($item)
         {
-            $this->dataAquisicao = $dataAquisicao;
+            $this->item = $item;
         }
 
-        public function getDataAquisicao()
+        /**
+         * @return mixed
+         */
+        public function getDtAquisicao()
         {
-            return $this->dataAquisicao;
+            return $this->dtAquisicao;
         }
 
-        public function setTipoEntrada($tipoEntrada)
+        /**
+         * @param mixed $dtAquisicao
+         */
+        public function setDtAquisicao($dtAquisicao)
         {
-            $this->tipoEntrada = $tipoEntrada;
+            $this->dtAquisicao = $dtAquisicao;
         }
 
+        /**
+         * @return TipoEntrada
+         */
         public function getTipoEntrada()
         {
             return $this->tipoEntrada;
         }
 
-        public function setValorItem($valorItem)
+        /**
+         * @param TipoEntrada $tipoEntrada
+         */
+        public function setTipoEntrada($tipoEntrada)
         {
-            $this->valorItem;
+            $this->tipoEntrada = $tipoEntrada;
         }
 
-        public function getValorItem()
+        /**
+         * @return mixed
+         */
+        public function getVlItem()
         {
-            return $this->valorItem;
+            return $this->vlItem;
         }
 
-        public function setObservacao($observacao)
+        /**
+         * @param mixed $vlItem
+         */
+        public function setVlItem($vlItem)
         {
-            $this->observacao = $observacao;
+            $this->vlItem = $vlItem;
         }
 
-        public function getObservacao()
+        /**
+         * @return mixed
+         */
+        public function getDsObservacao()
         {
-            return $this->observacao;
-
+            return $this->dsObservacao;
         }
 
-        public function setSetor($setor)
+        /**
+         * @param mixed $dsObservacao
+         */
+        public function setDsObservacao($dsObservacao)
         {
-            $this->setor = $setor;
+            $this->dsObservacao = $dsObservacao;
         }
 
+        /**
+         * @return Setor
+         */
         public function getSetor()
         {
             return $this->setor;
         }
 
-        public function setSituacao($situacao)
+        /**
+         * @param Setor $setor
+         */
+        public function setSetor($setor)
         {
-            $this->situacao = $situacao;
-        }  
+            $this->setor = $setor;
+        }
+
+        /**
+         * @return mixed
+         */
+        public function getFlSituacao()
+        {
+            return $this->flSituacao;
+        }
+
+        public function setFlSituacao($flSituacao)
+        {
+            $this->flSituacao = $flSituacao;
+        }
+
+
     }

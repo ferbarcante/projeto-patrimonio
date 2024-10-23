@@ -1,59 +1,94 @@
 <?php
 
-namespace App\Model
+namespace App\Model;
 
 class Item 
 {
-   private $id;
-   private $codigo;
-   private $nome;
-   private $valorUnidadeMedida;
-   private $idGrupoItem;
+   private $idItem;
+   private $cdItem;
+   private $nmItem;
+   private $vlUnidadeMedida;
+   private GrupoItem $grupoItem;
 
-   public function __construct($idItem,$codigoItem,$nomeItem,$valorUnidadeMedida,$idGrupoItem)
-   {
-        $this->id = $id;
-        $this->codigo = $codigo;
-        $this->nome = $nome;
-        $this->valorUnidadeMedida = $valorUnidadeMedida;
-        $this->idGrupo = $idGrupo;
-   }
+    /**
+     * @return mixed
+     */
+    public function getIdItem()
+    {
+        return $this->idItem;
+    }
 
-   public function getId()
-   {
-        return $this->id;
-   }
+    /**
+     * @param mixed $idItem
+     */
+    public function setIdItem($idItem)
+    {
+        $this->idItem = $idItem;
+    }
 
-   public function setCodigo($codigo)
-   {
-        $this->codigo = $codigo;
-   }
+    /**
+     * @return GrupoItem
+     */
+    public function getGrupoItem()
+    {
+        return $this->grupoItem;
+    }
 
-   public function getCodigo()
-   {
-        return $this->codigo;
-   }
+    /**
+     * @param GrupoItem $grupoItem
+     */
+    public function setGrupoItem($grupoItem)
+    {
+        $this->grupoItem = $grupoItem;
+    }
 
-   public function setNomeItem($nomeItem)
-   {
-        $this->nome = $nome;
-   }
+    /**
+     * @return mixed
+     */
+    public function getVlUnidadeMedida()
+    {
+        return $this->vlUnidadeMedida;
+    }
 
-   public function getNome(){
-        return $this->nome;
-   }
+    /**
+     * @param mixed $vlUnidadeMedida
+     */
+    public function setVlUnidadeMedida($vlUnidadeMedida)
+    {
+        $this->vlUnidadeMedida = $vlUnidadeMedida;
+    }
 
-   public function setValorUnidadeMedida($valorUnidadeMedida)
-   {
-        $this-valorUnidadeMedida = $valorUnidadeMedida;
-   }
+    /**
+     * @return mixed
+     */
+    public function getNmItem()
+    {
+        return $this->nmItem;
+    }
 
-   public function getValorUnidadeMedida()
-   {
-        return $this->valorUnidadeMedida;
-   }
-   public function getIdGrupo()
-   {
-        return $this->idgrupo;
-   }
+    /**
+     * @param mixed $nmItem
+     */
+    public function setNmItem($nmItem)
+    {
+        $this->nmItem = $nmItem;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCdItem()
+    {
+        return $this->cdItem;
+    }
+
+    /**
+     * @param mixed $cdItem
+     */
+    public function setCdItem($cdItem)
+    {
+        $this->cdItem = $cdItem;
+    }
+
+
 }

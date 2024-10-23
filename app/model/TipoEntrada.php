@@ -7,18 +7,25 @@ class TipoEntrada
     private $idTipoEntrada;
     private $nmTipoEntrada;
 
-    public function getId()
+    public function getNmTipoEntrada()
     {
-        return $this->idTipoEntrada;
+        return $this->nmTipoEntrada;
     }
 
-    public function setNome($nmTipoEntrada)
+    public function setNmTipoEntrada($nmTipoEntrada)
     {
         $this->nmTipoEntrada = $nmTipoEntrada;
     }
 
-    public function getNome()
+    public function getIdTipoEntrada()
     {
-        return $this->nmTipoEntrada;
+        return $this->idTipoEntrada;
     }
+
+    public function setIdTipoEntrada($idTipoEntrada)
+    {
+        $this->idTipoEntrada = $idTipoEntrada;
+    }
+
+
 }

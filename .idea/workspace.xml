@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae40f49-bef5-4000-82c1-189b93317864" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/model/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Fornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Fornecedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/GrupoItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/GrupoItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/NotaFsical" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Patrimonio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Patrimonio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Setor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/TipoEntrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/TipoEntrada.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +62,7 @@
       <updated>1729631580501</updated>
       <workItem from="1729631581586" duration="444000" />
       <workItem from="1729636488860" duration="40000" />
+      <workItem from="1729706275806" duration="728000" />
     </task>
     <servers />
   </component>
