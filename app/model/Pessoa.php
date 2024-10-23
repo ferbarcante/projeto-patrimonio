@@ -5,29 +5,35 @@ class Pessoa{
     private $cpf;
     private $nome;
 
-    public function __construct($id, $cpf, $nome){
+    public function __construct($id, $cpf, $nome)
+    {
         $this->id = $id;
         $this->cpf = $cpf;
         $this->nome = $nome;
     }
 
-    public function getId(){
+    public function getId()
+    {
         return $this->id;
     }
 
-    public function getCpf(){
+    public function getCpf()
+    {
         return $this->cpf;
     }
 
-    public function setCpf($cpf){
+    public function setCpf($cpf)
+    {
         $this->cpf = $cpf;
     }
 
-    public function setNome($nome){
+    public function setNome($nome)
+    {
         $this->nome = $nome;
     }
 
-    public function getNome(){
+    public function getNome()
+    {
         return $this->nome;
     }
 }
