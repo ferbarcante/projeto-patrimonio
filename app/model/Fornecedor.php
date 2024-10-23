@@ -6,23 +6,28 @@ class Fornecedor
     private $nome;
     private $cnpjcpf;
 
-    public function getId(){
+    public function getId()
+    {
         return $this->id;
     }
 
-    public function setNome($nome){
+    public function setNome($nome)
+    {
         $this->nome = $nome;
     }
 
-    public function getNome(){
+    public function getNome()
+    {
         return $this->nome;
     }
 
-    public function setCnpjCpf($cnpjcpf){
+    public function setCnpjCpf($cnpjcpf)
+    {
         $this->cnpjcpf = $cnpjcpf;
     }
 
-    public function getCnpjCpf(){
+    public function getCnpjCpf()
+    {
         return $this->cnpjcpf;
     }
 
