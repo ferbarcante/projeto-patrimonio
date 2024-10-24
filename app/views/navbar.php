@@ -28,13 +28,13 @@
                     Cadastrar
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../view/cadastro_fornecedor.php">Fornecedor</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_grupo_bem.php">Grupo</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_item.php">Item</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_nf.php">Nota Fiscal</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_pessoa.php">Pessoa</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_patrimonio.php">Patrimônio</a></li>
-                    <li><a class="dropdown-item" href="../view/cadastro_setor.php">Setor</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_fornecedor.php">Fornecedor</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_grupo_bem.php">Grupo</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_item.php">Item</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_nf.php">Nota Fiscal</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_pessoa.php">Pessoa</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_patrimonio.php">Patrimônio</a></li>
+                    <li><a class="dropdown-item" href="../views/cadastro_setor.php">Setor</a></li>
                 </ul>
             </li>
         </ul>

@@ -1,4 +1,4 @@
-<?php include '../view/navbar.php' ?>
+<?php include '../views/navbar.php' ?>
 
 <title>Lista Nota de fiscal</title>
 <div class="table-responsive">
