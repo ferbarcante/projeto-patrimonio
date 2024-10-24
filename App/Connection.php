@@ -29,4 +29,5 @@ class Connection {
     // Método para fechar a conexão
     public function close() {
         $this->connection = null; 
+    }
 }
