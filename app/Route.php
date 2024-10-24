@@ -2,6 +2,9 @@
 
     namespace app;
 
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
 
     class Route {
 
@@ -42,7 +45,7 @@
             {
                 if($url == $route['route'])
                 {
-                    $class = "app\\controller\\".ucfirst($route['controller']);
+                    $class = "App\\Controllers\\".ucfirst($route['controller']);
 
                     $controller = new $class;
 
