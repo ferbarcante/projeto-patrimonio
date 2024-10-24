@@ -1,4 +1,4 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
 <title>Cadastro de Patrimônio</title>
 
@@ -8,7 +8,7 @@
         <div class="row">
              
             <div class="mb-3">
-                <input type="text" class="form-control" id="" name="id_patrimonio" readonly>
+                <input type="hidden" class="form-control" id="" name="id_patrimonio" readonly>
             </div>
 
             <div class="mb-3 col-4">
@@ -128,7 +128,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Salvar</button>
-        <button type="button" class="btn btn-secondary mx-1">Voltar</button>
+        <button type="button" class="btn btn-secondary mx-1" onclick="window.location='lista_patrimonio.php'">Voltar</button>
     </form>
 </div>
 

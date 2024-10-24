@@ -1,4 +1,4 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
 <title>Cadastro de setor</title>
 
@@ -31,6 +31,6 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Salvar</button>
-        <button type="button" class="btn btn-secondary mx-1">Voltar</button>
+        <button type="button" class="btn btn-secondary mx-1" onclick="window.location='../view/lista_setor.php'">Voltar</button>
     </form>
 </div>

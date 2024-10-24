@@ -1,24 +1,20 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
-<title>Lista de itens</title>
+<title>Lista de Fornecedor</title>
 <div class="table-responsive">
     <div class="container">
-        <h3 class="mt-3">Lista de itens</h3>
+        <h3 class="mt-3">Lista de Fornecedores</h3>
         <table class="table table-hover table-borderless border text-center  mt-3">
             <tr>
                 <th>ID</th>
-                <th>Código do item</th>
-                <th>Nome</th>
-                <th>Unidade de Medida</th>
-                <th>Grupo do Bem</th>
+                <th>Fornecedor</th>
+                <th>CPF</th>
                 <th>Ações</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>12345</td>
-                <td>Monitor</td>
-                <td>Grama</td>
-                <td>bens de informática</td>
+                <td>Eduardo</td>
+                <td>871.123.421-99</td>
                 <td>
                     <button type="button" class="btn btn-primary mx-1 my-1" onclick="window.location=''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
@@ -36,6 +32,7 @@
                 </td>
             </tr>
         </table>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_item.php'">Adicionar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_fornecedor.php'">Adicionar</button>
     </div>
 </div>
+

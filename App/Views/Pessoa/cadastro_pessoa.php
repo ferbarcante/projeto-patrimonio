@@ -1,4 +1,4 @@
-<?php include '../App/Views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
 <title>Cadastro de pessoa</title>
 
@@ -16,12 +16,12 @@
         </div>
 
         <div class="mb-3">
-            <label for="sg_cpf" class="form-label">CPF</label>
+            <label for="sg_cpf" class="form-label">Cpf</label>
             <input type="text" class="form-control" id="" name="sg_cpf"> 
         </div>
 
         <button type="submit" class="btn btn-primary">Salvar</button>
-        <button type="button" class="btn btn-secondary">Voltar</button>
+        <button type="button" class="btn btn-secondary" onclick="window.location='lista_pessoa.php'">Voltar</button>
     </form>
 </div>
 

@@ -1,4 +1,4 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
 <title>Cadastro de item</title>
 
