@@ -1,4 +1,4 @@
-<?php include '../view/navbar.php' ?>
+<?php include '../viewsnavbar.php' ?>
 
 <title>Cadastro de Fornecedor</title>
 
