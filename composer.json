@@ -1,0 +1,21 @@
+{
+    "name": "vendor/projeto",
+    
+    "require" : {
+        "php" : ">= 7.0"
+    },
+    
+    "authors": [
+        {
+            "name" : "Estagiarios"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/",
+            "MF\\" : "vendor/MF/"
+        }
+    }
+
+}
