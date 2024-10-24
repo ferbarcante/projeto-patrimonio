@@ -5,7 +5,7 @@ use app\model\TipoEntrada;
 
 class TipoEntradaController 
 {
-   
+
 
 
 }
