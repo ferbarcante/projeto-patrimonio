@@ -2,63 +2,62 @@
 
 namespace App\Model;
 
-class Setor
-{
-    private $idSetor;
-    private $cdSetor;
-    private $nmSetor;
-    private $dsEndereco;
-    private Pessoa $pessoa;
-
-    public function getIdSetor()
+    class Setor
     {
-        return $this->idSetor;
-    }
+        private $idSetor;
+        private $cdSetor;
+        private $nmSetor;
+        private $dsEndereco;
+        private Pessoa $pessoa;
 
-    public function setIdSetor($idSetor)
-    {
-        $this->idSetor = $idSetor;
-    }
+        public function getIdSetor()
+        {
+            return $this->idSetor;
+        }
 
-    public function getCdSetor()
-    {
-        return $this->cdSetor;
-    }
+        public function setIdSetor($idSetor)
+        {
+            $this->idSetor = $idSetor;
+        }
 
-    public function setCdSetor($cdSetor)
-    {
-        $this->cdSetor = $cdSetor;
-    }
+        public function getCdSetor()
+        {
+            return $this->cdSetor;
+        }
 
-    public function getNmSetor()
-    {
-        return $this->nmSetor;
-    }
+        public function setCdSetor($cdSetor)
+        {
+            $this->cdSetor = $cdSetor;
+        }
 
-    public function setNmSetor($nmSetor)
-    {
-        $this->nmSetor = $nmSetor;
-    }
+        public function getNmSetor()
+        {
+            return $this->nmSetor;
+        }
 
-    public function getDsEndereco()
-    {
-        return $this->dsEndereco;
-    }
+        public function setNmSetor($nmSetor)
+        {
+            $this->nmSetor = $nmSetor;
+        }
 
-    public function setDsEndereco($dsEndereco)
-    {
-        $this->dsEndereco = $dsEndereco;
-    }
+        public function getDsEndereco()
+        {
+            return $this->dsEndereco;
+        }
 
-    public function getPessoa()
-    {
-        return $this->pessoa;
-    }
+        public function setDsEndereco($dsEndereco)
+        {
+            $this->dsEndereco = $dsEndereco;
+        }
 
-    public function setPessoa($pessoa)
-    {
-        $this->pessoa = $pessoa;
-    }
+        public function getPessoa()
+        {
+            return $this->pessoa;
+        }
 
+        public function setPessoa($pessoa)
+        {
+            $this->pessoa = $pessoa;
+        }
 
 }
