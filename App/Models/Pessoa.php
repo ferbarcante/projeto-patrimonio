@@ -2,10 +2,18 @@
 
 namespace App\Model;
 
+use PDO;
+
 class Pessoa{
     private $idPessoa;
     private $cpfPessoa;
     private $nmPessoa;
+    private $db;
+
+    public function __construct(PDO $db) {
+        $this->db = $db;
+    }
+    
     
     public function getIdPessoa()
     {
@@ -32,5 +40,6 @@ class Pessoa{
         return $this->nmPessoa;
     }
 
+    
 
 }
