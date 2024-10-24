@@ -6,7 +6,7 @@ class Pessoa{
     private $idPessoa;
     private $cpfPessoa;
     private $nmPessoa;
-
+    
     public function getIdPessoa()
     {
         return $this->idPessoa;
@@ -31,4 +31,6 @@ class Pessoa{
     {
         return $this->nmPessoa;
     }
+
+
 }

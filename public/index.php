@@ -1,5 +1,8 @@
 <?php 
     require_once "../vendor/autoload.php";
 
-    $route = new \App\Route;
+    $route = new \app\Route;
+
+    $conn = new Connection();
+    $conn->connect();
 ?>
