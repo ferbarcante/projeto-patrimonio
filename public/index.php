@@ -1,7 +1,7 @@
 <?php
 
     namespace App;
-
+    use App\Route;
 
     require_once "../vendor/autoload.php";
     

@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Controllers;
+
+use App\Model\Pessoa;
+
+class PessoaController
+{
+    private $pessoa;
+
+    public function __construct(Pessoa $pessoa)
+    {
+        $this->pessoa = $pessoa;
+    }
+
+    // exibe lista de pessoas
+    public function index()
+    {
+        $pessoa = $this->pessoa->getAll();
+
+        include '../App/Views/Pessoa/listar_pessoa.php';
+    }
+
+}

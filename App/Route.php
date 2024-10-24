@@ -5,7 +5,6 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
-
     class Route {
 
         private $routes;
@@ -35,6 +34,8 @@
                 'action' => 'index'
             );
 
+            
+
             $this->setRoutes($routes);
             
         }
@@ -62,4 +63,4 @@
             return parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         }
        
-    }   
+    } 

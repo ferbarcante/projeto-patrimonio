@@ -40,6 +40,8 @@ class Pessoa{
         return $this->nmPessoa;
     }
 
+    // crud 
+    
     public function create() {
         $stmt = $this->db->prepare("INSERT INTO pessoa (, ) VALUES (?, ?)");
         return $stmt->execute([$this->nmPessoa, $this->cpfPessoa]);

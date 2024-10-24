@@ -32,6 +32,6 @@
                 </td>
             </tr>
         </table>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_pessoa.php'">Adicionar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/create.php'">Adicionar</button>
     </div>
 </div>
