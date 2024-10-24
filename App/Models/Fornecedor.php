@@ -7,6 +7,7 @@ class Fornecedor
     private $idFonecedor;
     private $nmFornecedor;
     private $sgCnpjcpf;
+    private $db;
 
     public function getIdFonecedor()
     {
