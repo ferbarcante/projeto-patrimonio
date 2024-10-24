@@ -1,15 +1,11 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../App/Views/navbar.php' ?>
 
 <title>Cadastro de grupo</title>
 
 <div class="container">
     <h3 class="mt-3">Cadastro de Grupo do Bem</h3>
-    <form action="" method="">
-
-        <div class="mb-3">
-            <input type="text" class="form-control" id="" name="id_grupoitem" readonly>
-        </div>
-
+    <form action="../Controllers/GrupoBemController.php" method="post">
+        
         <div class="mb-3">
             <label for="cd_grupoitem" class="form-label">Código do bem</label>
             <input type="text" class="form-control" id="" name="cd_grupoitem">

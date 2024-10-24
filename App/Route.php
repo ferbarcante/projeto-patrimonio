@@ -34,6 +34,18 @@
                 'action' => 'index'
             );
 
+            $routes['cadastroGrupoBem'] = array(
+                'route' => '/cadastro-grupo-bem',
+                'controller' => 'GrupoBemController',
+                'action' => 'cadastroGrupoBem'
+            );
+
+            $routes['cadastroPessoa'] = array(
+                'route' => '/cadastro-pessoa',
+                'controller' => 'PessoaController',
+                'action' => 'index'
+
+            );
             
 
             $this->setRoutes($routes);

@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Connection;
+
 class HomeController
 {
 

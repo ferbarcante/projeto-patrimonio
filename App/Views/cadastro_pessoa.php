@@ -1,4 +1,4 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../App/Views/navbar.php' ?>
 
 <title>Cadastro de pessoa</title>
 
