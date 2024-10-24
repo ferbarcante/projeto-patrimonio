@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Connection {
     private $host = 'localhost'; // ou o IP do servidor
     private $port = '5432'; // porta do PostgreSQL
@@ -13,11 +15,13 @@ class Connection {
         $connectionString = "host={$this->host} port={$this->port} dbname={$this->dbname} user={$this->user} password={$this->password}";
 
         $this->connection = pg_connect($connectionString);
-
+        
         if (!$this->connection) {
             echo "Erro na conexão: " . pg_last_error();
             return null;
         }
+
+        echo 'conectado';
 
         return $this->connection;
     }
