@@ -2,11 +2,12 @@
 
 namespace app\controller;
 
+
 class HomeController
 {
 
     public function index()
     {
-        echo 'oi';
+        include __DIR__ . '/../views/home.php';
     }
 }
