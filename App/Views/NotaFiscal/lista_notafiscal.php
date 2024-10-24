@@ -1,20 +1,30 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
-<title>Lista de Fornecedor</title>
+<title>Lista Nota de fiscal</title>
 <div class="table-responsive">
     <div class="container">
-        <h3 class="mt-3">Lista de Fornecedores</h3>
+        <h3 class="mt-3">Lista de notas fiscais</h3>
         <table class="table table-hover table-borderless border text-center  mt-3">
             <tr>
                 <th>ID</th>
+                <th>N° da nota</th>
+                <th>Série</th>
+                <th>UF</th>
+                <th>Data de emissão</th>
                 <th>Fornecedor</th>
-                <th>CPF</th>
+                <th>Cnpj</th>
+                <th>cpf</th>
                 <th>Ações</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>Eduardo</td>
-                <td>871.123.421-99</td>
+                <td>1234567</td>
+                <td>4</td>
+                <td>BA</td>
+                <td>24/10/2024</td>
+                <td>João</td>
+                <td>123.124.321/0001-12</td>
+                <td>123.456.789-10</td>
                 <td>
                     <button type="button" class="btn btn-primary mx-1 my-1" onclick="window.location=''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
@@ -32,7 +42,6 @@
                 </td>
             </tr>
         </table>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_fornecedor.php'">Adicionar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_item.php'">Adicionar</button>
     </div>
 </div>
-

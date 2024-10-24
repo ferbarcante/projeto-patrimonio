@@ -1,24 +1,28 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
-<title>Lista Nota de fiscal</title>
+<title>Lista de patrimônios</title>
 <div class="table-responsive">
     <div class="container">
-        <h3 class="mt-3">Lista de itens</h3>
+        <h3 class="mt-3">Lista de patrimônios</h3>
         <table class="table table-hover table-borderless border text-center  mt-3">
             <tr>
                 <th>ID</th>
-                <th>Código do item</th>
-                <th>Nome</th>
-                <th>Unidade de Medida</th>
-                <th>Grupo do Bem</th>
+                <th>N° da Plaqueta</th>
+                <th>Valor do bem</th>
+                <th>Data da aquisição</th>
+                <th>item/bem</th>
+                <th>Setor</th>
+                <th>Situação</th>
                 <th>Ações</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>12345</td>
-                <td>Monitor</td>
-                <td>Grama</td>
-                <td>bens de informática</td>
+                <td>15</td>
+                <td>R$ 150</td>
+                <td>10/05/2024</td>
+                <td>Computador</td>
+                <td>Setor Financeiro</td>
+                <td>Ativo</td>
                 <td>
                     <button type="button" class="btn btn-primary mx-1 my-1" onclick="window.location=''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
@@ -36,6 +40,6 @@
                 </td>
             </tr>
         </table>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_item.php'">Adicionar</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='../view/cadastro_patrimonio.php'">Adicionar</button>
     </div>
 </div>

@@ -1,4 +1,4 @@
-<?php include '../views/navbar.php' ?>
+<?php include '../view/navbar.php' ?>
 
 <title>Lista de Grupo Bem</title>
 <div class="table-responsive">
